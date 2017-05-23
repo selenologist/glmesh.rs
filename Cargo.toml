@@ -1,0 +1,14 @@
+[package]
+name = "glmesh"
+version = "0.1.0"
+authors = ["Selenologist"]
+
+[dependencies]
+image = "*"
+glium = "*"
+glm   = "*"
+rust-assimp = { git = "https://github.com/can3p/rust-assimp-fix" }
+num-traits = "*"
+
+[profile.dev]
+rpath = true
